@@ -9,7 +9,7 @@ KYC service is written in ASP.NET Core and C# with the following patterns and pr
 - Background processing
 
 ## Apache Kafka Cluster on docker
-Please check the following docker compose file from [docker-compose-kafka.yml](https://github.com/rabbicse/aspdotnetcore-ddd-cleanarchitecture-microservices/blob/master/src/microservices/KYC/docker-composes/docker-compose-kafka.yml) 
+Please check the following docker compose file from [docker-compose-kafka.yml](https://github.com/Xavait/ddd-event-sourcing/blob/master/src/microservices/KYC/docker-composes/docker-compose-kafka.yml) 
 and write the following command to run on local machine. Make sure you've installed Docker Engine for Linux or Docker Desktop for Windows/MacOS.
 
 ```
@@ -32,7 +32,7 @@ export DOCKER_HOST_IP=192.168.0.100
 Here, 192.168.0.100 is docker hosted ip address.
 
 ## Postgres on Docker
-Please check the following docker compose file from [docker-compose-postgres.yml](https://github.com/rabbicse/aspdotnetcore-ddd-cleanarchitecture-microservices/blob/master/src/microservices/KYC/docker-composes/docker-compose-postgres.yml) 
+Please check the following docker compose file from [docker-compose-postgres.yml](https://github.com/Xavait/ddd-event-sourcing/blob/master/src/microservices/KYC/docker-composes/docker-compose-postgres.yml) 
 and write the following command to run on local machine. Make sure you've installed Docker Engine for Linux or Docker Desktop for Windows/MacOS.
 
 ```
